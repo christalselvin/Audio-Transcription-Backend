@@ -1,0 +1,15 @@
+{
+    "name": "Python: FastAPI",
+    "type": "python",
+    "request": "launch",
+    "module": "uvicorn",
+    "args": [
+        "main:app",  // Change 'main:app' to your main application module if it's different
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8001",
+        "--reload"
+    ],
+    "jinja": true
+}
