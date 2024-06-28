@@ -34,6 +34,12 @@ export DATABASE_URL="postgresql://postgres:password@localhost/christal"
 export SECRET_KEY="your-secret-key"
 export DEEPGRAM_API_KEY="your-deepgram-api-key"
 Alternatively, you can set these variables in a .env file and use python-dotenv to load them.
+## Voice 
+
+
+https://github.com/christalselvin/Audio-Transcription-Backend/assets/127867279/be0d6817-554c-49df-9846-b8c691bd1a1c
+
+
 
 ## Running the Application
 Run the FastAPI application using Uvicorn:
